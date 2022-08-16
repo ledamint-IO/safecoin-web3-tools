@@ -111,7 +111,7 @@ class SmartInstructionSender {
             if (!((_b = this.wallet) === null || _b === void 0 ? void 0 : _b.publicKey))
                 throw new Error('WALLET_NOT_CONNECTED');
             if (!((_c = this.instructionSets) === null || _c === void 0 ? void 0 : _c.length))
-                throw new Error('No instruction sets provided');
+                throw new Error('NO_INSTRUCTION_SETS');
             let [slot, currentBlock] = yield (0, tools_1.getSlotAndCurrentBlockHash)(this.connection, this.configuration.commitment);
             const unsignedTXs = this.instructionSets
                 .filter((i) => i.instructions.length)
