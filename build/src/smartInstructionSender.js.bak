@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SmartInstructionSender = void 0;
-const web3_js_1 = require("@safecoin/web3.js");
+const web3_js_1 = require("@solana/web3.js");
 const async_retry_1 = __importDefault(require("async-retry"));
 const connectionTools_1 = require("./tools/connectionTools");
 const tools_1 = require("./tools");

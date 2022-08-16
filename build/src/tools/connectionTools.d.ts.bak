@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { ConfirmOptions, Connection, Transaction, TransactionError, TransactionSignature } from '@safecoin/web3.js';
+import { ConfirmOptions, Connection, Transaction, TransactionError, TransactionSignature } from '@solana/web3.js';
 export declare type SendAndConfirmError = {
     type: 'tx-error';
     inner: TransactionError;

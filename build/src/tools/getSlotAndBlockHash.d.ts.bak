@@ -1,5 +1,5 @@
-import { Commitment, Connection } from '@safecoin/web3.js';
+import { Commitment, Connection } from '@solana/web3.js';
 export declare const getSlotAndCurrentBlockHash: (connection: Connection, commitment: Commitment) => Promise<[number, {
     blockhash: string;
-    feeCalculator: import("@safecoin/web3.js").FeeCalculator;
+    feeCalculator: import("@solana/web3.js").FeeCalculator;
 }]>;

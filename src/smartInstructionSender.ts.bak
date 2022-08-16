@@ -4,7 +4,7 @@ import {
   Transaction,
   FeeCalculator,
   PublicKey,
-} from '@safecoin/web3.js';
+} from '@solana/web3.js';
 import retry from 'async-retry';
 import {
   sendSignedTransaction,
